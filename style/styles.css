@@ -15,6 +15,7 @@
       align-items: center;
       justify-content: space-between;
       margin: 0px 200px;
+      background-color: white;
   }
   .secondary-bg{
       background-color: #C6E4D6;
@@ -34,20 +35,31 @@
   
   
   .btn-primary{
-      background-color: #006A50;
+      background-color: white;
       font-weight: bold;
       font-size: 20px;
-      color: white;
-      border: none;
+      color: green;
+      border-color: green ;
       padding: 18px 35px;
       border-radius: 5px;
   }
+  .btn-secondary{
+    background-color: #006A50;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-color: green ;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
   
   /* header styles */
   .header{
       background-image: url(../images/developer.png), url(../images/header_bg.png);
       background-repeat: no-repeat;
       background-position: top left, bottom right;
+      margin-bottom: 80px;
+      border-radius: auto;
   }
   .nav-title{
       font-weight: 800;
@@ -74,7 +86,9 @@
       display: flex;
       justify-content: space-between;
       margin: 0 35px 0 230px;
-      padding: 100px 80px;
+      padding: 130px 150px;
+      border-radius: 10px;
+      background-color: #C6E4D6 ;
   }
   
   .banner-content{
@@ -158,7 +172,7 @@
         opacity: 100%;
     }
   
-  .skill{
+  .news1{
       padding: 30px;
       border-radius: 5px;
       box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
@@ -166,9 +180,12 @@
   
   
   /* resume section styles */
-  .resume-container{
+  .your-opinion{
       display: flex;
       gap: 24px;
+  }
+  .your-answer{
+    background-color: #C6E4D6;
   }
   
   .experience-sub-title{
@@ -181,13 +198,7 @@
   
   }
   
-  .resume hr{
-      margin: 30px 5px;
-  }
   
-  .resume-download-cv{
-      margin-top: 50px;
-  }
   
   
   /* footer styles  */
@@ -213,3 +224,171 @@
       border: none;
   
   }
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.updates-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-content {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.card-content h4 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    color: #0E0E0E;
+}
+
+.card-content p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.card-content .meta {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #777;
+}
+
+.card-content .meta img {
+    width: 20px;
+    height: auto;
+    margin-right: 8px;
+}
+
+.card-content button {
+    background-color: #006A50;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-color: green ;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+.card-content button:hover {
+    background-color: #006A50;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border-color: green ;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+.card.reverse {
+    flex-direction: row-reverse;
+}
+
+.card.reverse .card-content {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+
+/* Donate for Bangladesh section */
+
+.donate-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.donate-section h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.donate-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.taka {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.taka h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.taka p {
+    font-size: 14px;
+    color: #777;
+}
+
+.input-section {
+    margin: 30px 0;
+}
+
+.input-section input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.input-section button {
+    background-color: #006A50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
