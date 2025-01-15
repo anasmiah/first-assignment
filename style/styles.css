@@ -152,7 +152,7 @@
       text-align: left;
   }
   
-  /* skill section styles */
+  /* skill styles section */
   .skills-container{
       display: flex;
       gap: 24px;
@@ -179,7 +179,7 @@
   }
   
   
-  /* resume section styles */
+  /* resume  styles section */
   .your-opinion{
       display: flex;
       gap: 24px;
@@ -199,34 +199,6 @@
   }
   
   
-  
-  
-  /* footer styles  */
-  
-  footer{
-      padding: 130px 230px;
-      display: flex;
-      gap: 100px;
-  }
-  
-  .footer-column{
-      width: 50%;
-  }
-  
-  footer input[type="text"], footer input[type="email"], footer textarea{
-      height: 64px;
-      border-radius: 5px;
-      background-color: white;
-      display: block;
-      width: 100%;
-      padding: 10px 20px;
-      margin-bottom: 24px;
-      border: none;
-  
-  }
-
-
-
 
   body {
     font-family: Arial, sans-serif;
@@ -343,7 +315,6 @@
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
 }
 
 .taka {
@@ -391,4 +362,44 @@
     display: block;
     margin: 0 auto;
 }
+
+/* Newsletter */
+.newsletter-section {
+    background-color: #C6E4D6;
+    padding: 40px;
+    text-align: center;
+}
+
+.newsletter-section h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.newsletter-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.newsletter-form {
+    margin-top: 20px;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    width: 300px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #006A50;
+    color: white;
+}
+
+
 
